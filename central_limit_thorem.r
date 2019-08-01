@@ -29,12 +29,10 @@ for (sim in 1:M) {
     df[, sim] <- z
 }
 
-# 一つの図にまとめて折れ線プロットために
-# dfを縦1列の縦長に変換する（常套手段）
-# library(tidyverse)
+# 一つの図にまとめて折れ線プロットためにdfを縦1列の縦長に変換する（常套手段）
 library(tidyr)
 df2 <- df %>% tidyr::gather("id", "value", 1:M)
-#
+
 library(ggplot2)
 ggplot() +
   geom_line(aes(idx, value, group = id), df2, colour = alpha("grey", 0.7))
