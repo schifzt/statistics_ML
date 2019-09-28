@@ -1,0 +1,31 @@
+---
+title: "第3回_情報分析・管理演習"
+author: ""
+date: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+header-includes:
+  - \usepackage{bookmark}
+  - \usepackage{xltxtra}
+  - \usepackage{zxjatype}
+  - \usepackage[ipa]{zxjafont}
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## 著者
++ 氏名：田頭　史都
++ 学籍番号：6930-31-3119
++ 所属：情報学研究科システム科学専攻
+
+## 課題1
+
+### プログラム
+```{r, warning=FALSE, out.height='60%', out.width='60%'}
+```
+
+### 考察
+```{r, warning=FALSE, out.height='60%', out.width='60%'}
+```
+
