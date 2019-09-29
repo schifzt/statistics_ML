@@ -18,6 +18,9 @@ df <- data.frame(x,y)       # x,yは定義済みの列ベクトル
 |新しい列を横にくっつける|`dfs <- transform(dfs, group = 1)`|
 |新しい行を下にくっつける|`dfs <- rbind(dfs,df_new)`|
 |指定した列の値についてソート|`df <- df[order(df$x), ]`|
+|マッチする列を取得|`df[df$aaa==1,]`|
+|マッチするindexを取得|`which(df$aaa==1)`|
+|ベクトルから指定した要素を削除して詰める|`x[-(3:10)]`|
 
 
 ### 整然データ
