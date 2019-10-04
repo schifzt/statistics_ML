@@ -5,7 +5,7 @@ dirs = os.listdir("./")
 dirs = list(filter(os.path.isdir, dirs))
 
 # タイトル
-s = "# Statistics & Machine Learning\n"
+s = "# Statistics & Machine Learning\n\n"
 
 # 目次
 for d in dirs:

@@ -1,7 +1,7 @@
 # Statistics & Machine Learning
-+ [central_limit_thorem](#central_limit_thorem))
-+ [dirichlet_process_mixture](#dirichlet_process_mixture))
-+ [stick_breaking](#stick_breaking))
++ [central_limit_thorem](#central_limit_thorem)
++ [dirichlet_process_mixture](#dirichlet_process_mixture)
++ [stick_breaking](#stick_breaking)
 
 ## [central_limit_thorem](central_limit_thorem)
 ![central_limit_thorem.png](central_limit_thorem/central_limit_thorem.png)
