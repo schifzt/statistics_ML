@@ -8,8 +8,9 @@
 ## data.frame
 ### 定義
 ```
-df <- data.frame(x=1,y=1)
+df <- data.frame(aaa=1,bbb=1)
 df <- data.frame(x,y)       # x,yは定義済みの列ベクトル
+str(df) # dfの型を確認
 ```
 
 ### よくやる操作
@@ -18,10 +19,10 @@ df <- data.frame(x,y)       # x,yは定義済みの列ベクトル
 |新しい列を横にくっつける|`dfs <- transform(dfs, group = 1)`|
 |新しい行を下にくっつける|`dfs <- rbind(dfs,df_new)`|
 |指定した列の値についてソート|`df <- df[order(df$x), ]`|
+|-|-|
 |マッチする列を取得|`df[df$aaa==1,]`|
 |マッチするindexを取得|`which(df$aaa==1)`|
 |ベクトルから指定した要素を削除して詰める|`x[-(3:10)]`|
-
 
 ### 整然データ
 + 1行が1観測となるように列の属性を増やす
