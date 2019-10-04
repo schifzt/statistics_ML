@@ -12,16 +12,16 @@ for d in dirs:
     # d内のpng画像を取得
     imgs = [f.name for f in os.scandir("./{0}".format(d)) if f.name.endswith(".png")]
 
-    # png画像があればREADMEに記入
+    # png画像を含むディレクトリならREADMEに記入
     if not imgs==[]:
-        s=s+"+ [{0}](#{0}))\n".format(d)
+        s=s+"+ [{0}](#{0})\n".format(d)
 
 # 本文
 for d in dirs:
     # d内のpng画像を取得
     imgs = [f.name for f in os.scandir("./{0}".format(d)) if f.name.endswith(".png")]
 
-    # png画像があればREADMEに記入
+    # png画像を含むディレクトリならREADMEに記入
     if not imgs==[]:
         s = s+"""
 ## [{0}]({0})
