@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - checkout
-      - run: python generate_README.py # 「echo」コマンドを実行します
+      - run: python generate_readme.py # 「echo」コマンドを実行します
 
       # Download and cache dependencies
       # - restore_cache:
