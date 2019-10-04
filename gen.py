@@ -4,8 +4,19 @@ import os
 dirs = os.listdir("./")
 dirs = list(filter(os.path.isdir, dirs))
 
+# タイトル
+s = "# Statistics & Machine Learning\n"
 
-s = "## Statistics & Machine Learning"
+# 目次
+for d in dirs:
+    # d内のpng画像を取得
+    imgs = [f.name for f in os.scandir("./{0}".format(d)) if f.name.endswith(".png")]
+
+    # png画像があればREADMEに記入
+    if not imgs==[]:
+        s=s+"+ [{0}](#{0}))\n".format(d)
+
+# 本文
 for d in dirs:
     # d内のpng画像を取得
     imgs = [f.name for f in os.scandir("./{0}".format(d)) if f.name.endswith(".png")]
@@ -13,7 +24,7 @@ for d in dirs:
     # png画像があればREADMEに記入
     if not imgs==[]:
         s = s+"""
-### [{0}]({0})
+## [{0}]({0})
 ![{1}]({0}/{1})
 """.format(d, imgs[0])
 
