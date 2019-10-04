@@ -13,8 +13,8 @@ for d in dirs:
     # png画像があればREADMEに記入
     if not imgs==[]:
         s = s+"""
-### [{0}]("/{0}")
-![img]("/{0}/{1}")
+### [{0}]({0})
+![{1}]({0}/{1})
 """.format(d, imgs[0])
 
 with open("./README.md", mode="w") as f:
