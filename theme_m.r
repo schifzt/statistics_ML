@@ -58,8 +58,8 @@ theme_m <- function() {
 			# ==============================
 
 			# Remove secondary axis title
-			# axis.title.x = element_blank(), 
-			# axis.title.y = element_blank(),
+			axis.title.x.top = element_blank(), 
+			axis.title.y.right = element_blank(),
 
 
 		)

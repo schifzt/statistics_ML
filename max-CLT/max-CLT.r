@@ -63,10 +63,11 @@ g <- g +
 
 # Xnをプロット
 g <- g + geom_line(aes_string("n", "simX", group = "sim"), df, colour = alpha("blue", 0.1))
+g <- g + geom_point(aes_string("n", "simX", group = "sim"), df, colour = alpha("blue", 0.1), size = 0.1)
 
 # max{X1,...Xn}をプロット
-g <- g + geom_line(aes_string("n", "simMax", group = "sim"), df, colour = alpha("red", 0.8))
-g <- g + geom_line(aes_string("n", "simMin", group = "sim"), df, colour = alpha("red", 0.8))
+g <- g + geom_line(aes_string("n", "simMax", group = "sim"), df, colour = alpha("red", 0.8), size = 0.5)
+g <- g + geom_line(aes_string("n", "simMin", group = "sim"), df, colour = alpha("red", 0.8), size = 0.5)
 
 # 理論値をプロット
 g <- g + geom_line(aes_string("n", "theoryMax", group = "sim"), df, colour = alpha("black", 1.0), linetype = "dashed")
