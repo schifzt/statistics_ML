@@ -3,7 +3,7 @@
 + [optimal_control](#optimal_control)
 + [discrete_eigenvalue_distribution](#discrete_eigenvalue_distribution)
 + [CLT](#CLT)
-+ [max-CLT](#max-CLT)
++ [max_CLT](#max_CLT)
 + [stick_breaking](#stick_breaking)
 + [dirichlet_process_mixture](#dirichlet_process_mixture)
 
@@ -16,8 +16,8 @@
 ## [CLT](CLT)
 ![law_of_large_numbers.png](CLT/law_of_large_numbers.png)
 
-## [max-CLT](max-CLT)
-![max-CLT.png](max-CLT/max-CLT.png)
+## [max_CLT](max_CLT)
+![max_CLT.png](max_CLT/max_CLT.png)
 
 ## [stick_breaking](stick_breaking)
 ![stick_breaking.png](stick_breaking/stick_breaking.png)
