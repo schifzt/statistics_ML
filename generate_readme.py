@@ -3,7 +3,6 @@ import os
 # ./のディレクトリ名を取得
 dirs = os.listdir("./")
 dirs = list(filter(os.path.isdir, dirs))
-dirs.remove("R")
 dirs.remove(".git")
 
 # タイトル
