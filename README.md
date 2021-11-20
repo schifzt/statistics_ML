@@ -1,26 +1,30 @@
 # Statistics & Machine Learning
 
-+ [optimal_control](#optimal_control)
-+ [discrete_eigenvalue_distribution](#discrete_eigenvalue_distribution)
 + [CLT](#CLT)
-+ [max_CLT](#max_CLT)
-+ [stick_breaking](#stick_breaking)
++ [constraint_propagation](#constraint_propagation)
 + [dirichlet_process_mixture](#dirichlet_process_mixture)
++ [discrete_eigenvalue_distribution](#discrete_eigenvalue_distribution)
++ [max_CLT](#max_CLT)
++ [optimal_control](#optimal_control)
++ [stick_breaking](#stick_breaking)
 
-## [optimal_control](optimal_control)
-![optimal_control.png](optimal_control/optimal_control.png)
+## [CLT](CLT)
+![central_limit_thorem.png](CLT/central_limit_thorem.png)
+
+## [constraint_propagation](constraint_propagation)
+![constraint_propagation.png](constraint_propagation/constraint_propagation.png)
+
+## [dirichlet_process_mixture](dirichlet_process_mixture)
+![dpm.png](dirichlet_process_mixture/dpm.png)
 
 ## [discrete_eigenvalue_distribution](discrete_eigenvalue_distribution)
 ![discrete_eigen_dist.png](discrete_eigenvalue_distribution/discrete_eigen_dist.png)
 
-## [CLT](CLT)
-![law_of_large_numbers.png](CLT/law_of_large_numbers.png)
-
 ## [max_CLT](max_CLT)
 ![max_CLT.png](max_CLT/max_CLT.png)
 
+## [optimal_control](optimal_control)
+![optimal_control.png](optimal_control/optimal_control.png)
+
 ## [stick_breaking](stick_breaking)
 ![stick_breaking.png](stick_breaking/stick_breaking.png)
-
-## [dirichlet_process_mixture](dirichlet_process_mixture)
-![dpm.png](dirichlet_process_mixture/dpm.png)
