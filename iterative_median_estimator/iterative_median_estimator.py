@@ -1,4 +1,3 @@
-from tkinter import W
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -54,7 +53,7 @@ adam2 = adam_closure(theta0 = 0, alpha = alpha)
 
 
 # -------------------------------------------
-# bimodal distribution
+# x ~ bimodal distribution
 # -------------------------------------------
 def data_closure():
     mu1, sd1 = 0, 10
