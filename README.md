@@ -5,6 +5,7 @@
 - [constraint_propagation](#constraint_propagation)
 - [dirichlet_process_mixture](#dirichlet_process_mixture)
 - [discrete_eigenvalue_distribution](#discrete_eigenvalue_distribution)
+- [exact-sparse-recorvery](#exact-sparse-recorvery)
 - [iterative_median_estimator](#iterative_median_estimator)
 - [max_CLT](#max_CLT)
 - [optimal_control](#optimal_control)
@@ -23,6 +24,8 @@
 
 ## [discrete_eigenvalue_distribution](discrete_eigenvalue_distribution)
 ![discrete_eigen_dist.png](discrete_eigenvalue_distribution/discrete_eigen_dist.png)
+
+## [exact-sparse-recorvery](exact-sparse-recorvery)
 
 ## [iterative_median_estimator](iterative_median_estimator)
 ![iterative_median_estimator.png](iterative_median_estimator/iterative_median_estimator.png)
