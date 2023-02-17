@@ -89,9 +89,9 @@ print(f"median:\n\testimate = {median_estm[-1]}, true = {np.median(X)}")
 
 df = pd.DataFrame(data={
     'x': X,
-    'mean': np.mean(X),
+    'true mean (updated iteratively)': [np.mean(X[:i]) for i in range(N)],
     'mean estimate': mean_estm,
-    'median': np.median(X),
+    'true median (updated iteratively)': [np.median(X[:i]) for i in range(N)],
     "median estimate": median_estm})
 
 sns.lineplot(data=df['x'], linewidth=1, alpha = 0.5)
